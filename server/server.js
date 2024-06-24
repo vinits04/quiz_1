@@ -12,7 +12,7 @@ const resportsRoute = require("./routes/reportsRoute");
 app.use("/api/users", usersRoute);
 app.use("/api/exams", examsRoute);
 app.use("/api/reports", resportsRoute);
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 
 const path = require("path");
 __dirname = path.resolve();
